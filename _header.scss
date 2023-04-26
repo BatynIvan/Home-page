@@ -1,3 +1,179 @@
 header {
-    
+  max-width: 1920px;
+
+  .information {
+    height: 60px;
+    background-color: #0c4b35;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 250px;
+    height: 100%;
+  }
+
+  .information_contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .information_email {
+    display: flex;
+    align-items: center;
+  }
+
+  .email_img {
+    width: 25px;
+    height: 25px;
+    background-image: url("./icons/email.png");
+  }
+
+  .email_text {
+    color: white;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .information_phone {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+  }
+
+  .phone_img {
+    width: 25px;
+    height: 25px;
+    background-image: url("./icons/phone.png");
+  }
+
+  .phone_text {
+    color: white;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .information_location {
+    display: flex;
+    align-items: center;
+  }
+
+  .location_img {
+    width: 25px;
+    height: 25px;
+    background-image: url("./icons/location.png");
+    background-repeat: no-repeat;
+  }
+
+  .location_text {
+    color: white;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .information_language {
+    display: flex;
+    align-items: center;
+  }
+
+  .language {
+    color: white;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .arrow_down {
+    margin-left: 5px;
+    width: 12px;
+    height: 7px;
+    background-image: url("./icons/arrow_down.png");
+  }
+
+  .row {
+    width: 100%;
+    height: 85px;
+    font-family: "Nunito", sans-serif;
+  }
+
+  .logo {
+    width: 120px;
+    height: 55px;
+    background-image: url("./icons/plants.png");
+    background-repeat: no-repeat;
+  }
+
+  .content_menu {
+    display: flex;
+
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .menu li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 44px;
+  }
+
+  .menu li:hover a {
+    color: green;
+  }
+
+  .menu li:hover .arrow_menu {
+    background-image: url("./icons/arrow_down_green.png");
+  }
+
+  .menu a {
+    color: #212529;
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+
+  .arrow_menu {
+    margin-left: 4px;
+    width: 12px;
+    height: 7px;
+    background-image: url("./icons/arrow_down_menu.png");
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 50px;
+    background-color: #00730C;
+    border-radius: 5px;
+    margin-left: 57px;
+  }
+
+  .call_us_img {
+    width: 30px;
+    height: 30px;
+    background-image: url("./icons/call_us.png");
+    background-repeat: no-repeat;
+  }
+
+  .call_us_text {
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 5px;
+  }
 }

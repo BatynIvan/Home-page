@@ -1,0 +1,232 @@
+main {
+  max-width: 1920px;
+  font-family: "Nunito", sans-serif;
+
+  .bg {
+    width: 1920px;
+    height: 719px;
+    background-image: url("./images/BG.png");
+    position: relative;
+  }
+  .big_img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 1013px;
+    height: 673px;
+  }
+
+  .small_img {
+    width: 197px;
+    height: 278px;
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+  }
+
+  .content {
+    height: 486px;
+    width: 556px;
+    position: absolute;
+    top: 133px;
+    left: 258px;
+  }
+
+  .leaf {
+    display: flex;
+  }
+
+  .leaf_icon {
+    margin-right: 5px;
+    width: 25px;
+    height: 20px;
+    background-image: url("./icons/leaf.png");
+  }
+
+  .leaf_text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #212529;
+  }
+
+  h1 {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 79px;
+    color: #212529;
+  }
+
+  h1:hover {
+    color: #00730c;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #676767;
+  }
+
+  .btn_see_works {
+    display: flex;
+    align-items: center;
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 50px;
+    background-color: #00730C;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+
+  .see_works {
+    margin: 0 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #676767;
+  }
+
+  .see_arrow_right {
+    width: 25px;
+    height: 16px;
+    background-image: url("./icons/arrow_right.png");
+    background-repeat: no-repeat;
+  }
+
+  .statistic {
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+  }
+
+  .statistic_500 {
+    width: 50px;
+    height: 50px;
+    background-image: url("./icons/500.png");
+  }
+
+  .statistic_800 {
+    width: 50px;
+    height: 50px;
+    background-image: url("./icons/800.png");
+  }
+
+  .statistic_100 {
+    width: 50px;
+    height: 50px;
+    background-image: url("./icons/100.png");
+  }
+
+  .statistic_text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #212529;
+    margin: 10px;
+  }
+
+  .service {
+    margin: 100px 0;
+  }
+
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+    color: #212529;
+  }
+
+  h2:hover {
+    color: #00730C;
+  }
+
+  .text_p {
+    text-align: center;
+  }
+
+  .container {
+    margin: 0 255px;
+    display: flex;
+  }
+
+  .service_lot {
+    box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 330px;
+    height: 366px;
+  }
+
+  .service_icon {
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+  }
+  
+  h3 {
+    color: #212529;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .service_text {
+    margin: 0 44px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #676767;
+    }
+
+    .tree_planting {
+      background-image: url("./icons/tree_planting.png");
+    }
+
+    .grass_cutting {
+      background-image: url("./icons/grass_cutting.png");
+    }
+
+    .garden_design {
+      background-image: url("./icons/garden_design.png");
+    }
+
+    .plant_growing {
+      background-image: url("./icons/plant_growing.png");
+    }
+
+    .flower_scaping {
+      background-image: url("./icons/cut_flower.png");
+    }
+
+    .branch_cutting {
+      background-image: url("./icons/branch_cutting.png");
+    }
+
+    .pets_control {
+      background-image: url("./icons/pests_control.png");
+    }
+    
+    .watering {
+      background-image: url("./icons/watering.png;
+    }
+}
